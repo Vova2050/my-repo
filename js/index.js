@@ -376,11 +376,9 @@ addEventListener('DOMContentLoaded', function () {
                         document.body.style.overflow = 'auto';
                         modal.remove();
                     })
-
                 }
             })
         }
-
     }
     templateLi(DATA);
     submitFilter.addEventListener('click', function (event) {
